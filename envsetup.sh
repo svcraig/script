@@ -8,5 +8,5 @@ echo "BUILD_DATETIME=$BUILD_DATETIME"
 export BUILD_NUMBER=$(cat out/build_number.txt 2>/dev/null || date -u -d @$BUILD_DATETIME +%Y.%m.%d.%H)
 echo "BUILD_NUMBER=$BUILD_NUMBER"
 export DISPLAY_BUILD_NUMBER=true
-export BUILD_USERNAME=grapheneos
-export BUILD_HOSTNAME=grapheneos
+export BUILD_USERNAME=svcos
+export BUILD_HOSTNAME=svcos
